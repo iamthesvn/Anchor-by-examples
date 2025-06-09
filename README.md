@@ -1,4 +1,4 @@
-# Anchor_by_examples
+# Anchor-by-examples
 
 This repository was created as a personal learning resource while exploring the Solana Anchor framework. The examples in this repository are from the official Anchor examples page: [https://examples.anchor-lang.com/](https://examples.anchor-lang.com/).
 
