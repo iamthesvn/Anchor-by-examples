@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Build artifacts
+target/
+dist/
+build/
+
+# Typescript cache
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Solana wallet keys (never commit your private keys!)
+*.json
+!Anchor.toml
+!package.json
+!tsconfig.json
+
+# VSCode and IDE files
+.vscode/
+.idea/
+.DS_Store
