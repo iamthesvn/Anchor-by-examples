@@ -5,9 +5,8 @@ declare_id!("Fvw7StQKaCmbx9ngxa3FWRbWM7dRH9Y8UJXtPxG2MGjN");
 #[program]
 pub mod hello_world {
     use super::*;
-
-    pub fn hello_world(ctx: Context<Initialize>) -> Result<()> {
-        msg!("Hello World, from Solana smart contract");
+    pub fn hello_world(_ctx: Context<Initialize>) -> Result<()> {
+        msg!("Hello world, from solana smart contract");
         Ok(())
     }
 }
